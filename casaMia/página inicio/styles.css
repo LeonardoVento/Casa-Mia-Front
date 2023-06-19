@@ -1,0 +1,131 @@
+* {
+}
+
+body {
+background-image: url(/Background-HP.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*nav bar*/
+
+.nav-bar{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zona-logo {
+    width: 800px;
+    height: auto;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 65px;
+}
+
+.inicio {
+    text-decoration: none;
+    
+}
+
+.nav-bar-elements{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(202, 195, 184, 0.3);
+    padding: 8px 5px;
+    border-radius: 12px;
+    margin-right: 65px;
+}
+/*items pequeños*/
+.nav-bar .nav-bar-elements a {
+    text-decoration: none;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+
+}
+
+.nav-bar-item-a{
+    
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+/*items grandes*/
+.nav-bar-item-b{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*botones, intereactivos*/
+
+
+/*contenido body*/
+
+.cuerpo {
+    margin-left: 225px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.titulo{
+    width: 850px;
+    height: 150px;
+}
+
+.bienvenida{
+    
+    width: 550px;
+    height: 100px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-family: roboto, sans-serif;
+}
+h2{
+    color: white;
+    font-size: 45px;
+    font-family: roboto, sans-serif;
+    /*no se pudo usar la fuente "Mukta Malar"*/
+}
+
+
+
+.texto-bienvenida {
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+}
+
+.cuerpo .bienvenida a{
+    text-decoration: none;
+}
+
+/*Botón*/
+
+.Boton-home-page {
+    width: 265px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    background-color: #B25600;
+    font-family: roboto, sans-serif;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
