@@ -66,6 +66,30 @@
 
 /*body*/
 
+section{
+    margin-left: 175px;
+}
+
+#titulo-etc{
+    width: 750px;
+}
+
+#descripcion{
+    width: 750px;
+}
+
+#ofrece{
+    width: 750px;
+}
+
+#info-zona{
+    width: 750px;
+}
+
+#requisitos{
+    width: 750px;
+}
+
 h3{
 font-size: 25px;
 color: black;
@@ -82,7 +106,7 @@ color: black;
 
 .info-depto{
     color: grey;
-
+    font-family: "arial", sans-serif;
 }
 
 h5{
