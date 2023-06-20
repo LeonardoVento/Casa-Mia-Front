@@ -5,49 +5,64 @@
 }
 
 body{
-   background:whitesmoke ;
+   background: whitesmoke ;
    
 }
-
-/*nav bar*/
-
-.nav-bar{
+/*todo el nav y el hero*/
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-image:url(/fotos/Background-PI.jpg);
-    background-position-y: -350px;
-    height: 514px;
+    z-index: 999; 
+  }
+
+
+
+  /*hero especial con el overlay*/
+#hero {
+    position: relative;
+    background-image: url("/fotos/Background-PI.jpg");
     background-size: cover;
-    
-}
+    background-position: center;
+    height: 500px;
+  }
+  /*overlay*/
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.29); /* Ajusta el nivel de opacidad según tus necesidades */
+  }
+
+
+  /*empezamos a tocar todo el nav*/
+
 
 .caja-mayor{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 50px;
-    padding-top: 20px ;
-}
-
-.logo{
-    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1400px;
 }
+/*caja donde esta el h2 y el logo de la casita*/
 
 .inicio {
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-}
-.inicio h2{
-    margin-left: 5px;
-    margin-top: 9px;
+  text-decoration: none;
+  color: white;
 }
 
-.nav-bar-elements{
+.inicio h2{
+  font-size: 45px;
+}
+/*la caja de los "a" del nav*/
+
+.links{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -55,31 +70,58 @@ body{
     background-color: rgba(202, 195, 184, 0.3);
     padding: 8px 5px;
     border-radius: 12px;
+    
 }
 
+/*los a del nav*/
 
-/*items pequeños*/
-.nav-bar .nav-bar-elements a {
+.links a{
+    margin-left: 10px ;
+    margin-right: 10px;
     text-decoration: none;
     color: white;
-    font-family: roboto, sans-serif;
-    font-size: 20px;
-
-}
-
-.nav-bar-item-a{
-    
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
     
 }
 
-/*items grandes*/
-.nav-bar-item-b{
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
+
+
+
+
+/*momento titulo y buscador*/
+
+#titulo-buscador{
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Encuentra tu hogar*/
+.titulo{
+  font-size: 64px;
+  color: white;
+}
+
+/*buscador y inputs*/
+.buscador{
+  margin-top: 90px;
+  min-width: 300px;
+}
+
+/*select de alquilar o comprar*/
+.select{
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+/*buscador lupa*/
+.lupa{
+  margin-left: 40px;
+  border-radius: 20px;
+  background: black;
+  color: white;
+  font-size: 20px;
 }
