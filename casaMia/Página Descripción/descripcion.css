@@ -75,27 +75,12 @@
 
 /*body*/
 
-section{
+section {
+    margin: 20px 0px;
+}
+
+.columna-derecha{
     margin-left: 175px;
-}
-
-#titulo-etc{
-    width: 750px;
-}
-
-#descripcion{
-    width: 750px;
-}
-
-#ofrece{
-    width: 750px;
-}
-
-#info-zona{
-    width: 750px;
-}
-
-#requisitos{
     width: 750px;
 }
 
@@ -104,6 +89,8 @@ section{
 h3{
 font-size: 25px;
 color: black;
+margin-top: 5px;
+margin-bottom: 15px;
 }
 
 .precio {
@@ -113,6 +100,8 @@ color: black;
 h4{
 font-size: 20px;
 color: black;
+margin-top: 5px;
+margin-bottom: 10px;;
 }
 
 .info-depto{
@@ -122,8 +111,11 @@ color: black;
 
 h5{
     font-size: 18px;
+    margin-top: 10px;
 }
 
 p{ 
     font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
