@@ -4,26 +4,27 @@
     font-family: roboto, sans-serif;
 }
 
+/*nav bar*/
+
 .nav-bar{
     width: 100%;
-    height: auto;
-    margin-top: 30px;
+    height: 300px;
+}
+.caja-mayor{
+    margin: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    display: flex;
 
-.zona-logo {
-    width: 800px;
-    height: auto;
-    display: inline-block;
-    margin-right: 100px;
-    margin-left: 65px;
 }
-
 .inicio {
     text-decoration: none;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-bar-elements{
@@ -34,7 +35,6 @@
     background-color: rgba(202, 195, 184, 0.3);
     padding: 8px 5px;
     border-radius: 12px;
-    margin-right: 65px;
 }
 
 
