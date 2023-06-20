@@ -8,10 +8,9 @@ body {
     background-image: url(/fotos/Background-HP.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-/*nav bar*/
+/*nav bar logo*/
 
 .nav-bar{
     width: 100%;
@@ -32,9 +31,9 @@ body {
 
 .inicio {
     text-decoration: none;
-    
 }
 
+/* nav bar menu*/
 .nav-bar-elements{
     display: flex;
     justify-content: flex-end;
@@ -73,9 +72,6 @@ body {
     margin-right: 15px;
 }
 
-/*botones, intereactivos*/
-
-
 /*contenido body*/
 
 .cuerpo {
@@ -97,20 +93,6 @@ body {
 
 }
 
-h1 {
-    color: white;
-    font-size: 64px;
-    font-family: roboto, sans-serif;
-}
-h2{
-    color: white;
-    font-size: 45px;
-    font-family: roboto, sans-serif;
-    /*no se pudo usar la fuente "Mukta Malar"*/
-}
-
-
-
 .texto-bienvenida {
     color: white;
     font-family: roboto, sans-serif;
@@ -120,9 +102,6 @@ h2{
 .cuerpo .bienvenida a{
     text-decoration: none;
 }
-
-/*Botón*/
-
 
 /*boton de buscar mi nuevo*/
 .Boton-home-page{
@@ -143,14 +122,26 @@ h2{
     
 }
 
-
-
 .Boton-home-page a:hover{
     background-color: #B25600;
     text-decoration: none;
     color: white;
 }
 
+/*fonts*/
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-family: roboto, sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 45px;
+    font-family: roboto, sans-serif;
+    /*no se pudo usar la fuente "Mukta Malar"*/
+}
 
 
 
