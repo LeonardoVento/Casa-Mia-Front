@@ -14,10 +14,9 @@ body{
 .nav-bar{
     width: 100%;
     background-image:url(/fotos/Background-PI.jpg);
-    background-position-y: -350px ;
+    background-position-y: -350px;
     height: 514px;
-    background-size: auto;
-    
+    background-size: cover;
     
 }
 
@@ -41,6 +40,11 @@ body{
     color: white;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+}
+.inicio h2{
+    margin-left: 5px;
+    margin-top: 9px;
 }
 
 .nav-bar-elements{
