@@ -6,36 +6,38 @@
 
 /*nav bar logo*/
 
-.nav-bar{
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.zona-logo {
-    width: 800px;
-    height: auto;
-    display: inline-block;
-    margin-right: 100px;
-    margin-left: 65px;
+  }
+
+  /*empezamos a tocar todo el nav*/
+
+
+.caja-mayor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1400px;
 }
+/*caja donde esta el h2 y el logo de la casita*/
 
 .inicio {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.titulito{
-    color: black;
-    font-size: 45px;
-    font-family: roboto, sans-serif;
-    /*no se pudo usar la fuente "Mukta Malar"*/
+.inicio h2{
+  font-size: 45px;
+  color: black;
 }
+/*la caja de los "a" del nav*/
 
-/* nav var menu*/
-.nav-bar-elements{
+.links{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -43,34 +45,17 @@
     background-color: rgba(202, 195, 184, 0.3);
     padding: 8px 5px;
     border-radius: 12px;
-    margin-right: 65px;
-}
-
-
-/*items pequeños*/
-.nav-bar .nav-bar-elements a {
-    text-decoration: none;
-    color: black;
-    font-family: roboto, sans-serif;
-    font-size: 20px;
-
-}
-
-.nav-bar-item-a{
     
-    display: inline-block;
-    font-size: 20px;
+}
+
+/*los a del nav*/
+
+.links a{
     margin-left: 10px;
     margin-right: 10px;
+    text-decoration: none;
+    color: black;
     
-}
-
-/*items grandes*/
-.nav-bar-item-b{
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 /*body*/
