@@ -3,3 +3,92 @@
     box-sizing: border-box;
     font-family: roboto, sans-serif;
 }
+
+.nav-bar{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zona-logo {
+    width: 800px;
+    height: auto;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 65px;
+}
+
+.inicio {
+    text-decoration: none;
+    
+}
+
+.nav-bar-elements{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(202, 195, 184, 0.3);
+    padding: 8px 5px;
+    border-radius: 12px;
+    margin-right: 65px;
+}
+
+
+/*items pequeños*/
+.nav-bar .nav-bar-elements a {
+    text-decoration: none;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+
+}
+
+.nav-bar-item-a{
+    
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+/*items grandes*/
+.nav-bar-item-b{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*body*/
+
+h3{
+font-size: 25px;
+color: black;
+}
+
+.precio {
+    color: #B25600;
+}
+
+h4{
+font-size: 20px;
+color: black;
+}
+
+.info-depto{
+    color: grey;
+
+}
+
+h5{
+    font-size: 18px;
+}
+
+p{ 
+    font-size: 15px;
+}
