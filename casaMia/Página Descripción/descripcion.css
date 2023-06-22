@@ -64,8 +64,27 @@ section {
     margin: 20px 0px;
 }
 
+.galeria-fotos{
+    margin-left: 175px;
+    margin-top: 150px;
+    width: 750px;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
 .columna-derecha{
     margin-left: 175px;
+    margin-top: 150px;
     width: 750px;
 }
 
