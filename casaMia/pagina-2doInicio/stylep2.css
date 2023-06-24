@@ -11,12 +11,10 @@ body{
 
  /*hero especial con el overlay*/
  #hero {
-  position: relative;
   background-image: url("/fotos/Background-PI.jpg");
   background-size: cover;
   background-position: center;
   height: 500px;
-  z-index: -1;
 }
 /*overlay*/
 #hero::before {
@@ -85,44 +83,143 @@ body{
 /*momento titulo y buscador*/
 
 #titulo-buscador{
-  position: relative;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:200px ;
 }
 
 /*Encuentra tu hogar*/
 .titulo{
-  font-size: 64px;
-  color: white;
+    font-size: 64px;
+    color: white;
 }
 
 /*buscador y inputs*/
 .buscador{
-  margin-top: 90px;
-  min-width: 300px;
+    margin-top: 90px;
+    min-width: 300px;
 }
 
 /*select de alquilar o comprar*/
 .select{
-  border-radius: 20px;
-  background-color: black;
-  color: white;
-  font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
 }
 
 /*buscador lupa*/
 .lupa{
-  margin-left: 40px;
-  border-radius: 20px;
-  background: black;
-  color: white;
-  font-size: 18px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-size: 18px;
 }
 
 
-section{
-  height: 200vh;
+
+
+
+/*section nuevo que esta debajo de la fotito*/
+#listados{
+  max-width: 1700px;
+  height: 300px;
+  display: flex;
+  margin: 20px auto 0 auto;
+  height: 25vh;
+}
+/*caja mayor que contiene desde el h3 hasta las cajitas*/
+.caja-total{
+  width: 1300px;
+  margin: 0 auto;
+}
+/*caja del titulo donde dice listados de propiedades """"*/
+.titulo-listados{
+  margin-top: 20px;
+  font-size: 25px;
+  height: 29px;
+  width: 596px;
+  margin-left: 2px;
+}
+
+/*caja donde estan los recuadros negros*/
+.caja-caracteristicas{
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/*cajas donde estan los h4 y el boton*/
+.caracteristicas{
+  width: 100%;
+  background-color: black;
+  height: 100%;
+  border-radius: 14px;
+  color: white;
+  align-items: center;
+  display: flex;
+}
+
+/*h4 especial para las cajas negras*/
+.h4-especial{
+  margin: 0 5px;
+  max-width: 240px;
+  font-size: 18px;
+  font-weight: 50;
+}
+
+
+/*caja de propiedades similares*/
+
+#propiedades{
+  max-width: 1700px;
+  height: 414px;
+  display: flex;
+  margin: 0 auto 120px auto;
+  justify-content: center;
+}
+
+/*caja total de titulo + imagenes y descripcion*/
+
+#todo{
+  width: 1300px;
+  margin: 0 auto;
+  background: white;
+}
+
+
+.carousel-item{
+  background-color: black;
+  width: 100%;
+}
+
+.w-si{
+  height: 357px;
+  width: 100%;
+}
+
+
+#cartas{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: blue;
+  width: 1050px;
+  margin: 0 auto;
+  align-items: center;
+  height: 357px;
+  
+}
+
+.row{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
