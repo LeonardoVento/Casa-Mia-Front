@@ -11,6 +11,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    background-color: white;
 
   }
 
@@ -64,10 +65,36 @@ section {
     margin: 20px 0px;
 }
 
+/* galeria de fotos*/
+
+.galeria-fotos{
+    margin-left: 175px;
+    margin-top: 150px;
+    display: flex;
+    height: 700px;
+}
+
+.foto-car{
+    height: 100%;
+}
+
+.fotos{
+    max-width: 1400px;
+    max-height: 700px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+/*columnas*/
+
 .columna-derecha{
     margin-left: 175px;
+    margin-top: 150px;
     width: 750px;
 }
+
+
 
 /*fonts*/
 
