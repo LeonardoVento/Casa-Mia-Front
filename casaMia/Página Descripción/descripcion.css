@@ -26,6 +26,7 @@
     margin: 50px auto;
     max-width: 1400px;
 }
+
 /*caja donde esta el h2 y el logo de la casita*/
 
 .inicio {
@@ -36,6 +37,13 @@
   font-size: 45px;
   color: black;
 }
+
+.zona-logo {
+    display: flex;
+    flex-direction: ;
+    width: 100%;
+}
+              
 /*la caja de los "a" del nav*/
 
 .links{
