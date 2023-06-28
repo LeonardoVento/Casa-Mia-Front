@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+body{
+   background: rgb(241, 241, 241) ;
+   
+}
+
+
+
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; 
+}
+
+/*empezamos a tocar todo el nav*/
+
+
+.caja-mayor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1400px;
+  background-color: rgb(239, 239, 239);
+  border-radius: 20px;
+}
+
+/*caja donde esta el h2 y el logo de la casita*/
+
+.inicio {
+  text-decoration: none;
+  color: white;
+}
+.inicio h2{
+  font-size: 45px;
+}
+/*la caja de los "a" del nav*/
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(202, 195, 184, 0.3);
+    padding: 8px 5px;
+    border-radius: 12px;
+    
+}
+
+/*los a del nav*/
+
+.links a{
+    margin-left: 10px ;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*todo la parte debajo del nav*/
+
+
+
+/*section de comparacion*/
+#comparacion-fotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+/*titulo de comparacion*/
+#comparacion-fotos .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*caja mayor donde va a estar la */
+.fotos-slide{
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+}
+
+/*slide de cajas*/
+.slide-cajas{
+    display: flex;
+    margin: 0 auto;
+}
+
+.cajas img{
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+/*los ver mas que estan debajo de las fotos*/
+.cajas #link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#caracteristicas{
+    background-color: aquamarine;
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+}
+
+.container, .text-center{
+    margin: 20px;
+    margin-left: 34px;
+    
+}
+
+.izq{
+    margin-left: 20px;
+}
+

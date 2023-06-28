@@ -189,15 +189,61 @@ body{
 /*caja total de titulo + imagenes y descripcion*/
 
 #todo{
+  width: 1700px;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+}
+
+#todo{
+  width: 1700px;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+}
+
+#todo h3 {
   width: 1300px;
   margin: 0 auto;
   
 }
 
 
-.caja-slider{
-  width: 100%;
+#caja-slider{
+  width: 1700px;
   height: 414px;
   margin-top: 20px;
+}
+
+.card{
+  gap:20px;
+}
+
+.carousel-inner{
+
+  display: flex;
+  gap: 20px;
+}
+
+.card-img-top{
+  border-radius: 20px 20px 0 0;
+}
+
+
+.card-group{
+  gap: 20px;
+}
+
+span.carousel-control-prev-icon {
+  
+  background-color: black;
+  border-radius: 40px;
+}
+
+
+.carousel-control-next-icon {
+  border-radius: 40px;
+  background-color: black;
+  
   
 }
