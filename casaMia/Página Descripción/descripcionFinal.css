@@ -12,6 +12,8 @@ nav{
     background: white;
     height: 100px;
     width: 100%;
+    position: fixed;
+    display: flex;
 }
 
 .enlace{
