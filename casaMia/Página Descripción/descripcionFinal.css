@@ -4,6 +4,7 @@
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: roboto, sans-serif;
 }
 
 /*Nav-Bar*/
@@ -11,6 +12,8 @@ nav{
     background: white;
     height: 100px;
     width: 100%;
+    position: fixed;
+    display: flex;
 }
 
 .enlace{
@@ -48,9 +51,27 @@ li a.active, li a:hover {
     border-radius: 18px;
 }
 
-section{
-    background: url(/fotos/cheems.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 100px);
+/*Body*/
+
+.galeria-fotos{
+    margin-left: 175px;
+    margin-top: 150px;
+    display: flex;
+    height: 700px;
+}
+
+.contenedores-fotos{
+    height: 400px;
+    display: flex;
+}
+
+.foto-car{
+    height: 100%;
+}
+
+.fotos{
+    max-width: 1400px;
+    max-height: 700px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
