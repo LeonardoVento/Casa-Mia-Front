@@ -1,20 +1,18 @@
 * {
     padding: 0;
     margin: 0;
-    list-style: none;
     box-sizing: border-box;
-    text-decoration: none;
     font-family: roboto, sans-serif;
 }
 
 /*Nav-Bar*/
 nav{
     background: white;
-    height: 100px;
     width: 100%;
     position: fixed;
-    display: flex;
 }
+
+/*el responsive*/
 
 .enlace{
     position: absolute;
@@ -52,6 +50,10 @@ li a.active, li a:hover {
 }
 
 /*Body*/
+
+body{
+    height: 400vh;
+}
 
 .galeria-fotos{
     margin-left: 175px;
